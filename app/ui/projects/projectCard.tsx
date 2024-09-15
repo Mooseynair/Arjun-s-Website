@@ -12,7 +12,7 @@ export default function ProjectCard({
   description = "This is a short description of the card content.",
 }: CardProps) {
   return (
-    <div className="group h-full flex flex-col rounded-lg overflow-hidden shadow-md hover:shadow-xl bg-custom-dark-gray transition-all duration-300 ease-in-out transform hover:scale-105">
+    <div className="group h-full flex-col rounded-lg overflow-hidden shadow-md hover:shadow-xl bg-custom-dark-gray transition-all duration-300 ease-in-out transform hover:scale-105">
       <div className="relative h-48 w-full overflow-hidden flex-shrink-0">
         <Image
           src={imageUrl}

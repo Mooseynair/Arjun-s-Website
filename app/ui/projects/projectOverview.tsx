@@ -42,11 +42,11 @@ export default function ProjectOverview() {
   return (
     // <div className="p-4 min-h-screen">
     <div className="container mx-auto p-4 min-h-screen">
-      <h1 className="text-3xl font-bold text-center mb-8">Projects</h1>
+      <h1 className="text-3xl font-bold text-evenly mb-8">Projects</h1>
       {/* Flexbox Layout */}
-      <div className="flex flex-wrap justify-start gap-8">
+      <div className="flex flex-wrap justify-center gap-8">
         {cardData.map((card, index) => (
-          <div key={index} className="flex-grow  basis-80 max-w-xs">
+          <div key={index} className="basis-80 max-w-sm">
             <ProjectCard
               imageUrl={card.imagePath}
               title={card.title}
