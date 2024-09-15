@@ -1,3 +1,5 @@
+import ProjectOverview from "@/app/ui/projects/projectOverview";
+
 export default function Page() {
-  return <p>Projects Page</p>;
+  return <ProjectOverview />;
 }
